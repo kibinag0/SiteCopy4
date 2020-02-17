@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    border-top: 8px solid #6CC6C4;
+    font-family: Verdana, Arial, Helvetica, meirio, メイリオ, "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+}
+
+.main-wrapper{
+    width: 920px;
+    height: 1065px;
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ここからheader */
+
+#header{
+    background-color: brown;
+    width: 920px;
+    height: 200px;
+}
+
+.header-first-box{
+    display: flex;
+    justify-content: space-between;
+    width: 920px;
+    height: 120px;
+    background-color: lightcoral;
+
+}
+
+.dental-logo{
+    margin-top: 47px;
+    background-color: lightgreen;
+}
+
+.dental-contact-info{
+    background-color: lightyellow;
+    width: 220px;
+}
+
+.catchy-phrase{
+    font-size: 10px;
+    letter-spacing: 0.1px;
+    text-align: right;
+}
+
+.phone-number-box{
+    display: flex;
+    margin-top: 20px;
+}
+
+.tel-text{
+    font-size: 26px;
+    margin-top: -2px;
+    margin-left: 13px;
+    margin-bottom: 0;
+    letter-spacing: -0.2px;
+    text-align: right;
+}
+
+.business-hours{
+    font-size: 10px;
+    border: 1px solid #D6D6D6;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 5px auto;
+}
+
+/* ここからグローバルメニュー */
+
+
+.global-menu{
+    width: 918px;
+    height: 70px;
+    margin-top: 9px;
+    background: -moz-linear-gradient(top, rgb(156,227,225), #6CC6C4);
+    background: -webkit-linear-gradient(top,rgb(156,227,225), #6CC6C4);
+    background: linear-gradient(to bottom, rgb(156,227,225), #6CC6C4);
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid #6CC6C4;  
+}
+
+.global-menu-box{
+    width: 20%;
+}
+
+.global-menu-box:hover{
+    background: -moz-linear-gradient(top, #6CC6C4, rgb(156,227,225));
+    background: -webkit-linear-gradient(top,#6CC6C4, rgb(156,227,225));
+    background: linear-gradient(to bottom, #6CC6C4, rgb(156,227,225));
+}
+
+.global-menu-box:hover .global-JPN-text{
+    color: #C1FFFD;
+
+}
+
+.global-menu-box:hover .global-ENG-text{
+    color: #C1FFFD;
+
+}
+
+.global-border-right{
+    border-right: 1px solid #6CC6C4;  
+}
+
+.global-border-left{
+    border-left: 1px solid rgb(156,227,225);  
+}
+
+
+.global-JPN-text{
+    text-align: center;
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.global-ENG-text{
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    font-size: 11px;
+}
+
+/* ここからメインコンテンツ */
+#main-contents{
+    background-color: lightblue;
+    width: 920px;
+    height: 200px;
+}
