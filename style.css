@@ -221,3 +221,72 @@ a{
     height: 735px;
     background-color: blue;
 }
+
+.main-img-box{
+    margin-top: 20px;
+    background-image: url(images/no-image.png);
+    background-size: cover;
+    height: 280px;
+    width: 640px;
+    
+}
+
+.blog-post-box{
+    margin-top: 9px;
+    height: 405px;
+    width: 640px;
+    background-color: orchid;
+}
+
+.blog-post-first-part{
+    width: 600px;
+    background-color: powderblue;
+    padding-top: 30px;
+    margin-left: 20px;
+
+}
+
+.blog-post-first-part hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1.5px solid #6CC6C4;
+}
+
+.blog-post-title{
+    margin: 0;
+}
+
+.blog-post-content-box{
+    width: 580px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.post-wrapper{
+    display: flex;
+    color: white;
+}
+
+.blog-date{
+    font-size: 13px;
+    font-weight: 600;
+    width: 143px;
+}
+
+.blog-date p{
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.blog-inside-content{
+    font-size: 13px;
+    width: 430px;
+}
+.blog-inside-content p{
+    margin: 9px auto;
+}
+
+.dotted-grey-border{
+    border: dotted 0.5px white;
+    margin: 0;
+}
