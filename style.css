@@ -2,13 +2,13 @@ body{
     margin: 0;
     border-top: 8px solid #6CC6C4;
     font-family: Verdana, Arial, Helvetica, meirio, メイリオ, "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+    background-color: #F6F6F6;
 }
 
 .main-wrapper{
     width: 920px;
     height: 1065px;
     margin: 0 auto;
-    background-color: bisque;
 }
 
 a{
@@ -18,7 +18,6 @@ a{
 /* ここからheader */
 
 #header{
-    background-color: brown;
     width: 920px;
     height: 200px;
 }
@@ -28,17 +27,14 @@ a{
     justify-content: space-between;
     width: 920px;
     height: 120px;
-    background-color: lightcoral;
 
 }
 
 .dental-logo{
     margin-top: 47px;
-    background-color: lightgreen;
 }
 
 .dental-contact-info{
-    background-color: lightyellow;
     width: 220px;
 }
 
@@ -132,7 +128,6 @@ a{
 
 /* ここからメインコンテンツ */
 #main-contents{
-    background-color: lightblue;
     width: 920px;
     height: 735px;
     display: flex;
@@ -144,7 +139,6 @@ a{
     width: 260px;
     height: 735px;
     margin-right: 20px;
-    background-color: mediumorchid;
 }
 
 .side-bar p{
@@ -153,7 +147,6 @@ a{
 
 .side-box-container{
     margin-top: 20px;
-    background-color: mistyrose;
     height: 230px;
     border-radius: 6px 6px 0 0;
     border: 1px solid #6CC6C4;
@@ -219,7 +212,6 @@ a{
 .main-content-box{
     width: 640px;
     height: 735px;
-    background-color: blue;
 }
 
 .main-img-box{
@@ -235,12 +227,11 @@ a{
     margin-top: 9px;
     height: 405px;
     width: 640px;
-    background-color: orchid;
+    background-color: white;
 }
 
 .blog-post-first-part{
     width: 600px;
-    background-color: powderblue;
     padding-top: 30px;
     margin-left: 20px;
 
@@ -258,13 +249,12 @@ a{
 
 .blog-post-content-box{
     width: 580px;
-    background-color: black;
     margin: 0 auto;
 }
 
 .post-wrapper{
     display: flex;
-    color: white;
+    color: black;
 }
 
 .blog-date{
@@ -287,6 +277,65 @@ a{
 }
 
 .dotted-grey-border{
-    border: dotted 0.5px white;
+    border: dotted 0.5px grey;
     margin: 0;
+}
+
+/* ここからfooter menu */
+
+.footer-menu-box{
+    width: 920px;
+    background-color: #6CC6C4;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.footer-ul{
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+}
+
+.footer-li{
+    margin-top: 7px;
+    font-size: 13px;
+    list-style: none;
+    position: relative;
+    padding: 0px 0px 0px 18px;
+    margin-left: 20px;
+    margin-right: 7px;
+    color: white;
+
+}
+
+
+.footer-ul > li:before {
+    position: absolute;
+    top: 10%;
+    left: -3px;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    content: "";
+    border: solid 2px white;
+}
+
+
+/* ここから最後のfooter情報 */
+
+.clinic-info-footer{
+    text-align: right;
+    font-size: 13px;
+    margin-top: 15px;
+
+}
+
+.copyright-text{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.last-horizontal-line{
+    border: 1px solid #6CC6C4;
 }
