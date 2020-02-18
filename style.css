@@ -134,5 +134,90 @@ a{
 #main-contents{
     background-color: lightblue;
     width: 920px;
-    height: 200px;
+    height: 735px;
+    display: flex;
+}
+
+/* ここからside-bar */
+
+.side-bar{
+    width: 260px;
+    height: 735px;
+    margin-right: 20px;
+    background-color: mediumorchid;
+}
+
+.side-bar p{
+    margin: 0;
+}
+
+.side-box-container{
+    margin-top: 20px;
+    background-color: mistyrose;
+    height: 230px;
+    border-radius: 6px 6px 0 0;
+    border: 1px solid #6CC6C4;
+
+}
+
+.side-box-title{
+    border-radius: 6px 6px 0 0;
+    background: -moz-linear-gradient(top, rgb(156,227,225), #6CC6C4);
+    background: -webkit-linear-gradient(top,rgb(156,227,225), #6CC6C4);
+    background: linear-gradient(to bottom, rgb(156,227,225), #6CC6C4);
+    padding: 9px 0 10px 16px;
+    color: white;
+}
+
+
+
+.side-box-contents{
+    background-color: white;
+    padding: 0 10px 10px 10px;
+}
+
+.list_dia{
+    padding-left: 8px;
+    margin: 0;
+}
+
+/* ここがひし型のリスト https://migi.me/css/list-diamond/ */
+
+.list_dia > li {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    position: relative;
+    padding: 0px 0px 0px 18px;
+    list-style: none;
+    font-size: 14.5px;
+}
+
+.side-box-link{
+    color: #444;
+}
+
+.side-box-link:hover{
+    color: #6CC6C4;
+}
+
+.list_dia > li:before {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%) rotate(45deg);
+    width: 0.5em;
+    height: 0.5em;
+    background-color: #6CC6C4;
+    content: "";
+}
+
+
+
+/* ここからmainbox */
+
+
+.main-content-box{
+    width: 640px;
+    height: 735px;
+    background-color: blue;
 }
